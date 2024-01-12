@@ -1,0 +1,309 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  fanzor1.hmm
+# target sequence database:        /home/slava/GENOMES/Triticum_Genome/protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       fanzor1_prob90_MSA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+  ------ inclusion threshold ------
+      0.038   15.3   0.1      0.046   15.0   0.1    1.0  1  XP_044385552.1  probable ubiquitin carboxyl-terminal hydrolas
+       0.18   13.1   0.3       0.18   13.1   0.3    1.1  1  XP_044341097.1  60S ribosomal protein L37a-1 isoform X1 [Trit
+       0.18   13.1   0.3       0.18   13.1   0.3    1.1  1  XP_044349769.1  60S ribosomal protein L37a-1 isoform X1 [Trit
+       0.18   13.1   0.3       0.18   13.1   0.3    1.1  1  XP_044357578.1  60S ribosomal protein L37a-1 isoform X1 [Trit
+       0.18   13.0   0.2       0.18   13.0   0.2    1.1  1  XP_044451670.1  60S ribosomal protein L37a-1 isoform X1 [Trit
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044341098.1  60S ribosomal protein L37a-1 isoform X2 [Trit
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044346206.1  60S ribosomal protein L37a-1 isoform X2 [Trit
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044349770.1  60S ribosomal protein L37a-1 isoform X2 [Trit
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044357579.1  60S ribosomal protein L37a-1 isoform X2 [Trit
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044420301.1  60S ribosomal protein L37a-1 isoform X2 [Trit
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044422965.1  60S ribosomal protein L37a-1 [Triticum aestiv
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044434176.1  60S ribosomal protein L37a-1 [Triticum aestiv
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044440868.1  60S ribosomal protein L37a-1 [Triticum aestiv
+       0.18   13.0   0.3       0.18   13.0   0.3    1.1  1  XP_044451671.1  60S ribosomal protein L37a-1 isoform X2 [Trit
+       0.19   12.9   0.2       0.19   12.9   0.2    1.1  1  XP_044346200.1  60S ribosomal protein L37a-1 isoform X1 [Trit
+       0.19   12.9   0.2       0.19   12.9   0.2    1.1  1  XP_044420293.1  60S ribosomal protein L37a-1 isoform X1 [Trit
+       0.21   12.8   0.1       0.23   12.7   0.1    1.0  1  XP_044401832.1  uncharacterized protein LOC123125396 [Triticu
+       0.28   12.4   0.2       0.31   12.2   0.2    1.0  1  XP_044393652.1  uncharacterized protein LOC123116821 [Triticu
+        7.2    7.7   2.8        8.5    7.5   2.8    1.1  1  XP_044410263.1  probable E3 ubiquitin-protein ligase ATL44 [T
+        8.6    7.5   7.0         24    6.0   7.0    1.7  1  XP_044334181.1  trichohyalin-like isoform X4 [Triticum aestiv
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_044385552.1  probable ubiquitin carboxyl-terminal hydrolase creB [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.1   6.4e-06     0.046     378     476 ..      62     159 ..      59     190 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 6.4e-06
+  fanzor1_prob90_MSA 378 erslayvvdsagkillkesknerikrrsrrlaklrekeqeeekrrskqarkneklrekikeqkedlvhklarliikyaaiivledLsrafr 468
+                         er +a +v+ ++++ l e+  ++++rr r +a ++  e+  +++ ++ +r+  +  e++ + +  +v++l rli +  +++ +e L++++ 
+      XP_044385552.1  62 ERRAAAAVVREKEVSLAEELEKARERRGRLRAARQVTERALAEA-DEALRREMREWERRADEQRRVVAELMRLIGMPEVYVPVESLRSREE 151
+                         8999999*************999999999999988777766643.555566655555566655668********************99999 PP
+
+  fanzor1_prob90_MSA 469 gkrkrskw 476
+                         +krk+  +
+      XP_044385552.1 152 RKRKQGTA 159
+                         99998644 PP
+
+>> XP_044341097.1  60S ribosomal protein L37a-1 isoform X1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.3   2.5e-05      0.18     507     535 ..      41      76 ..       5      92 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 2.5e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvna 535
+                         +C  CG+  ++rk ++++ C++Cg       +t+n 
+      XP_044341097.1  41 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNT 76 
+                         7999*******************8444444456665 PP
+
+>> XP_044349769.1  60S ribosomal protein L37a-1 isoform X1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.3   2.5e-05      0.18     507     535 ..      41      76 ..       5      92 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 2.5e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvna 535
+                         +C  CG+  ++rk ++++ C++Cg       +t+n 
+      XP_044349769.1  41 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNT 76 
+                         7999*******************8444444456665 PP
+
+>> XP_044357578.1  60S ribosomal protein L37a-1 isoform X1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.3   2.5e-05      0.18     507     535 ..      41      76 ..       5      92 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 2.5e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvna 535
+                         +C  CG+  ++rk ++++ C++Cg       +t+n 
+      XP_044357578.1  41 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNT 76 
+                         7999*******************8444444456665 PP
+
+>> XP_044451670.1  60S ribosomal protein L37a-1 isoform X1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.2   2.5e-05      0.18     507     535 ..      41      76 ..       6      92 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.5e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvna 535
+                         +C  CG+  ++rk ++++ C++Cg       +t+n 
+      XP_044451670.1  41 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNT 76 
+                         7999*******************8444444456665 PP
+
+>> XP_044341098.1  60S ribosomal protein L37a-1 isoform X2 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044341098.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044346206.1  60S ribosomal protein L37a-1 isoform X2 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044346206.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044349770.1  60S ribosomal protein L37a-1 isoform X2 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044349770.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044357579.1  60S ribosomal protein L37a-1 isoform X2 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044357579.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044420301.1  60S ribosomal protein L37a-1 isoform X2 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044420301.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044422965.1  60S ribosomal protein L37a-1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044422965.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044434176.1  60S ribosomal protein L37a-1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044434176.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044440868.1  60S ribosomal protein L37a-1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044440868.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044451671.1  60S ribosomal protein L37a-1 isoform X2 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   2.6e-05      0.18     507     536 ..      38      74 ..      12      90 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.6e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvnaD 536
+                         +C  CG+  ++rk ++++ C++Cg       +t+n +
+      XP_044451671.1  38 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNTA 74 
+                         7999*******************84444444566655 PP
+
+>> XP_044346200.1  60S ribosomal protein L37a-1 isoform X1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.2   2.7e-05      0.19     507     535 ..      44      79 ..       9      95 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 2.7e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvna 535
+                         +C  CG+  ++rk ++++ C++Cg       +t+n 
+      XP_044346200.1  44 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNT 79 
+                         7999*******************8444444456665 PP
+
+>> XP_044420293.1  60S ribosomal protein L37a-1 isoform X1 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.2   2.7e-05      0.19     507     535 ..      44      79 ..       9      95 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 2.7e-05
+  fanzor1_prob90_MSA 507 tCpkCGfleknrkkqekfkCekCg.......ktvna 535
+                         +C  CG+  ++rk ++++ C++Cg       +t+n 
+      XP_044420293.1  44 FCEFCGKFAVKRKAVGIWGCKDCGkvkaggaYTMNT 79 
+                         7999*******************8444444456665 PP
+
+>> XP_044401832.1  uncharacterized protein LOC123125396 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.1   3.2e-05      0.23     382     476 ..      63     156 ..      38     190 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 3.2e-05
+  fanzor1_prob90_MSA 382 ayvvdsagkillkesknerikrrsrrlaklrekeqeeekrrskqarkneklrekikeqkedlvhklarliikyaaiivledLsrafrgkrk 472
+                         a +v+ ++++ l e+  ++++rr r +a ++  e+  ++ +++ +r+  +  e++ + +  +v++l rli +  +++ +e L++++ +krk
+      XP_044401832.1  63 AAAVVREKEVSLAEELEKARERRGRLRAARQVTERALAE-ADEALRREMREWERRADEQRRVVAELMRLIGMPEVYVPVESLRSREERKRK 152
+                         667788888888888888888888888888766665554.4555566666556566666668*********************99999999 PP
+
+  fanzor1_prob90_MSA 473 rskw 476
+                         +  +
+      XP_044401832.1 153 QGTA 156
+                         8644 PP
+
+>> XP_044393652.1  uncharacterized protein LOC123116821 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.2   4.4e-05      0.31     383     476 ..      60     152 ..      49     191 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 4.4e-05
+  fanzor1_prob90_MSA 383 yvvdsagkillkesknerikrrsrrlaklrekeqeeekrrskqarkneklrekikeqkedlvhklarliikyaaiivledLsrafrgkrkr 473
+                          +v+ ++++ l e+  ++++rr r +a ++  e+  ++ +++ +r+  +  e++ + +  +v++l rli +  +++ +e L++++ +krk+
+      XP_044393652.1  60 AAVVREKEVSLAEELEKARERRGRLRAARQVTERALAE-ADEALRREMREWERRADEQRRVVAELMRLIGMPEVYVPVESLRSREERKRKQ 149
+                         45666777777888878888777777777766665554.4555566666666666666668********************9999999998 PP
+
+  fanzor1_prob90_MSA 474 skw 476
+                           +
+      XP_044393652.1 150 GAA 152
+                         543 PP
+
+>> XP_044410263.1  probable E3 ubiquitin-protein ligase ATL44 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.5   2.8    0.0012       8.5     493     540 ..     131     191 ..      84     193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0012
+  fanzor1_prob90_MSA 493 gipvfevpaaf.tSktCpkCGfl............eknrkkqekfkCekCgktvnaDenaA 540
+                         ++ v  v+a+  t  tCp+C  +             ++ +  +  +C++Cg+ ++ D  a+
+      XP_044410263.1 131 SFHVACVDAWLrTCATCPSCRATildssvsssscsPPAPPLAAPGRCRSCGAACDGDSVAT 191
+                         6788999999989**********88887776666556667*****************9987 PP
+
+>> XP_044334181.1  trichohyalin-like isoform X4 [Triticum aestivum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   7.0    0.0034        24     376     447 ..      56     127 ..      11     210 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.0034
+  fanzor1_prob90_MSA 376 rGerslayvvdsagkillkesknerikrrsrrlaklrekeqeeekrrskqarkneklrekikeqkedlvhkl 447
+                         +   ++++  ++++k++++e+  +++++  ++++k++e+e++++++++++ r++e+  ek+k+  e+  +k 
+      XP_044334181.1  56 KPAVQAVVEEVKKKKTKKQEAEEKKKQEAEEKKRKQEEEEEKRRQEEEEEKRRQEEEEEKRKQEEEEKERKR 127
+                         444444444467788888888888888888888888877777777666666666666666666666443333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                     142442  (64335684 residues searched)
+Passed MSV filter:                      7051  (0.0495008); expected 2848.8 (0.02)
+Passed bias filter:                     4237  (0.0297454); expected 2848.8 (0.02)
+Passed Vit filter:                       494  (0.00346808); expected 142.4 (0.001)
+Passed Fwd filter:                        40  (0.000280816); expected 1.4 (1e-05)
+Initial search space (Z):             142442  [actual number of targets]
+Domain search space  (domZ):              20  [number of targets reported over threshold]
+# CPU time: 2.53u 0.04s 00:00:02.57 Elapsed: 00:00:01.14
+# Mc/sec: 31815.21
+//
+[ok]

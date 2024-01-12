@@ -1,0 +1,24 @@
+
+# Use TrimAl to trim multiple alignment of Fanzor and TnpB proteins found in attachment 4 of supplementary materials in Bao and Jurka, 2013 
+# https://mobilednajournal.biomedcentral.com/articles/10.1186/1759-8753-4-12 
+~/programs/trimAl/source/trimal -in 13100_2012_74_MOESM4_ESM.fas -out fanzor_trimmed.fas -htmlout fanzor_trimmed.html -gt 1 -clustal
+
+# Create hmm profile based on trimmed alignment from the previous step
+hmmbuild --fast --wpb --eent fanzor_trimmed.hmm fanzor_trimmed.aln
+
+# Use hhpred we server https://toolkit.tuebingen.mpg.de/tools/hhpred to find homologs for Fanzor1 and Fanzor2 
+# The sequences for Fanzor 1 and Fanzor 2 were obtained from supplementary materials in Saito et al, 2023 
+# https://www.nature.com/articles/s41586-023-06356-2#Sec29
+
+# Fanzor 1: Fanzor1:Fungi:Spizellomyces punctatus:ATCC 48900:NW_015971553
+# Fanzor 2: Fanzor2:Mollusca:Mercenaria mercenaria isolate YKG-2019:NC_059312
+
+# hhpred search was done using PDB_mmCIF70_24_Dec, Pfam_A_v36, COG_KOG_v1.0 data sets with other search parameters kept at default
+# The multiple alignment was created for top hhpred hits with probability over 90% in case of Fanzor 1 and over 95% for Fanzor 2
+
+# Create hmm profiles from Fanzor multiple sequence alignment (MSA) files
+hmmbuild --fast --wpb --eent <hmm> <MSA.fasta>
+
+# Seach Fanzor1 and 2 hmm profiles for homologs within a data set of wheat proteins
+# The Wheat genome dataset was GCF_018294505.1_IWGSC_CS_RefSeq_v2.1 downloaded from NCBI Genomes
+hmmsearch fanzor2.hmm ~/GENOMES/Triticum_Genome/protein.faa > fanzor2_hmmsearch.out
